@@ -1,0 +1,47 @@
+.modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &_close_button {
+    width: 80px;
+    align-self: center;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  &_background {
+    background-color: rgba(0, 0, 0, 0.589);
+  }
+}
+
+.button_default {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+}
+
+.filters_block {
+  background-color: white;
+  opacity: 1;
+
+  color: rgb(0, 0, 0);
+  font-size: 16;
+  font-weight: 500;
+  letter-spacing: 0.2;
+
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

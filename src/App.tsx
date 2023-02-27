@@ -1,24 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Filters } from "./components/filters/filters";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore cumque in minus quam distinctio nulla temporibus incidunt esse vitae fuga, tempore officia ipsam ab hic harum rem reprehenderit. Eaque, incidunt!
+      <Filters>
+        <input type='text' placeholder="инпут"/>
+      </Filters>
+
+      <Filters isModal>
+        <input type='text' placeholder="инпут"/>
+      </Filters>
     </div>
   );
 }
